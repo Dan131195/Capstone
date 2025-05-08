@@ -362,4 +362,39 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+# ---------------------------
+# BACKEND (.NET / C#)
+# ---------------------------
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# OS generated files
+*.DS_Store
+*.vscode/
+*.swp
+*.sln.cache
+
+# Logs
+*.log
+Logs/
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Secrets & settings
 appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
+
+# EF migrations snapshots
+Migrations/*Designer.cs
