@@ -8,7 +8,7 @@ Benvenuto nel progetto **SpeedMarket**, un'applicazione web completa per la gest
 
 ## 🔧 Tecnologie Utilizzate
 
-### 🧠 Backend – `ASP.NET Core 7`
+### 🧠 Backend – `ASP.NET Core 8`
 
 - Entity Framework Core (Code First)
 - Identity & JWT Authentication
