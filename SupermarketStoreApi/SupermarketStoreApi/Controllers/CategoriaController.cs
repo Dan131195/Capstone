@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SupermarketStoreApi.DTOs.Categoria;
 using SupermarketStoreApi.Services;
 
@@ -48,6 +49,7 @@ namespace SupermarketStoreApi.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin, SuperAdmin")]
         public async Task<IActionResult> Create([FromBody] CategoriaCreateDto dto)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -65,6 +67,7 @@ namespace SupermarketStoreApi.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin, SuperAdmin")]
         public async Task<IActionResult> Update(int id, [FromBody] CategoriaUpdateDto dto)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -82,6 +85,7 @@ namespace SupermarketStoreApi.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin, SuperAdmin")]
         public async Task<IActionResult> Delete(int id)
         {
             try

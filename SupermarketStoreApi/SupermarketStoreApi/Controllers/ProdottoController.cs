@@ -54,7 +54,7 @@ namespace SupermarketStoreApi.Controllers
         }
 
         [HttpPost]
-        [AllowAnonymous]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Create([FromForm] ProdottoCreateDto dto)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -72,7 +72,7 @@ namespace SupermarketStoreApi.Controllers
         }
 
         [HttpPut("{id}")]
-//      [RequestSizeLimit(10_000_000)]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Update(Guid id, [FromBody] ProdottoUpdateDto dto)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -90,7 +90,7 @@ namespace SupermarketStoreApi.Controllers
         }
 
         [HttpDelete("{id}")]
-        [AllowAnonymous]
+        [Authorize(Roles = "SuperAdmin")]
 
         public async Task<IActionResult> Delete(Guid id)
         {

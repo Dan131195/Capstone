@@ -74,6 +74,7 @@ Email HTML moderne inviate via SMTP:
 **Daniele Franceschini**  
 📧 daniele.franceschini1395@outlook.it  
 🔗 [GitHub](https://github.com/Dan131195)
+https://super-market-beige.vercel.app
 
 ---
 

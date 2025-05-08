@@ -53,6 +53,7 @@ namespace SupermarketStoreApi.Controllers
         }
 
         [HttpPatch("{ordineId}/stato")]
+        [Authorize(Roles = "Admin, SuperAdmin")]
         public async Task<IActionResult> CambiaStato(Guid ordineId, [FromBody] CambiaStatoOrdineDto dto)
         {
             var result = await _service.CambiaStatoAsync(ordineId, dto.StatoOrdineId);

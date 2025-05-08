@@ -7,7 +7,7 @@ namespace SupermarketStoreApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
+    [Authorize(Roles ="Admin, SuperAdmin")]
     public class ClienteController : ControllerBase
     {
         private readonly ClienteService _clienteService;
