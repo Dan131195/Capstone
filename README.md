@@ -4,6 +4,8 @@ Benvenuto nel progetto **SpeedMarket**, un'applicazione web completa per la gest
 
 > 🏁 **Obiettivo**: semplificare la spesa quotidiana grazie a un'interfaccia smart, gestione real-time degli ordini e notifiche automatiche via email.
 
+https://super-market-beige.vercel.app
+
 ---
 
 ## 🔧 Tecnologie Utilizzate
@@ -74,7 +76,6 @@ Email HTML moderne inviate via SMTP:
 **Daniele Franceschini**  
 📧 daniele.franceschini1395@outlook.it  
 🔗 [GitHub](https://github.com/Dan131195)
-https://super-market-beige.vercel.app
 
 ---
 
