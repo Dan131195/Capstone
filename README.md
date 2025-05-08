@@ -4,7 +4,7 @@ Benvenuto nel progetto **SpeedMarket**, un'applicazione web completa per la gest
 
 > 🏁 **Obiettivo**: semplificare la spesa quotidiana grazie a un'interfaccia smart, gestione real-time degli ordini e notifiche automatiche via email.
 
-https://super-market-beige.vercel.app
+Visita il sito su https://super-market-beige.vercel.app
 
 ---
 
