@@ -1,4 +1,4 @@
-# 🛒 SpeedMarket — Full Stack Grocery Web App
+# 🛒 SpeedMarket — Full Stack Web App
 
 Benvenuto nel progetto **SpeedMarket**, un'applicazione web completa per la gestione e l'acquisto online della spesa. Progettata con un'architettura **Full Stack** moderna, questa soluzione fornisce un'esperienza utente fluida, sicura e responsiva sia per clienti che per amministratori.
 
