@@ -23,6 +23,7 @@ Benvenuto nel progetto **SpeedMarket**, un'applicazione web completa per la gest
 - React Router Dom
 - Redux Toolkit
 - Fetch API con JWT
+- Deploy su Vercel
 
 ### ☁️ Database
 
