@@ -74,7 +74,7 @@ Email HTML moderne inviate via SMTP:
 ## 🙋‍♂️ Autore
 
 **Daniele Franceschini**  
-📧 daniele.franceschini1395@outlook.it  
+📧 daniele.franceschini1395@gmail.com  
 🔗 [GitHub](https://github.com/Dan131195)
 
 ---
